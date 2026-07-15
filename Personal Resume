@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile | [Student Name]</title>
+    <style>
+        :root {
+            --primary-color: #0F52BA;
+            --secondary-color: #333333;
+            --bg-color: #f4f7f6;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--secondary-color);
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            gap: 20px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--primary-color);
+        }
+
+        .header-text h1 {
+            margin: 0 0 10px 0;
+            color: var(--primary-color);
+        }
+
+        .header-text p {
+            margin: 0;
+            font-size: 1.1em;
+            font-weight: 500;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .education-item, .hobby-item {
+            margin-bottom: 15px;
+        }
+
+        .education-item h3 {
+            margin: 0 0 5px 0;
+        }
+
+        .education-item p {
+            margin: 0;
+            color: #666;
+        }
+
+        .contact-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-list li {
+            margin-bottom: 10px;
+        }
+
+        .contact-list a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .contact-list a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Header: Profile Photo & Title -->
+        <header>
+            <img src="placeholder.jpg" alt="Professional Headshot of [Student Name]" class="profile-img">
+            <div class="header-text">
+                <h1>[Ashish Chakraborty]</h1>
+                <p>[B.Tech] | Aspiring [Google:CEO]</p>
+            </div>
+        </header>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>Professional Summary</h2>
+            <p>
+                Motivated and detail-oriented [B.Tech] graduate from [SBJIT] with a strong foundation in [Python] and [SQL]. Passionate about leveraging technical and analytical skills to solve real-world problems. Eager to contribute to a dynamic team in the [Google] industry.
+            </p>
+        </section>
+
+        <!-- Education Details Section -->
+        <section id="education">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <h3>[Degree Name, Bachelor of Technology]</h3>
+                <p><strong>[SB Jain Institute of Tecnology , Management And Research]</strong> | [Nagpur,Maharashtra]</p>
+                <p><em>Graduation Year: [2029]</em></p>
+                <p><strong>CGPA:</strong> [9.99]</p>
+            </div>
+
+            <div class="education-item">
+                <h3>[Higher Secondary / Pre-University]</h3>
+                <p><strong>[St.Francis De'Sales High School And Jr.College]</strong> | [Nagpur,Maharashtra]</p>
+                <p><em>Graduation Year: [2023]</em></p>
+            </div>
+        </section>
+
+        <!-- Hobbies & Interests Section -->
+        <section id="hobbies">
+            <h2>Hobbies & Interests</h2>
+            <ul>
+                <li class="hobby-item">[Exploring Different Things]</li>
+                <li class="hobby-item">[Riding, Travelling]</li>
+                <li class="hobby-item">[Watching Movie,Webseries,Gaming]</li>
+            </ul>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <ul class="contact-list">
+                <li><strong>Email:</strong> <a href="ashishc.ml25@sbjit.edu.in">your.email@example.com</a></li>
+                <li><strong>Phone:</strong> <a href="tel:+918600349339">+91 98765 43210</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">://linkedin.com</a></li>
+                <li><strong>Portfolio/GitHub:</strong> <a href="https://github.com" target="_blank">://github.com</a></li>
+            </ul>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p style="text-align: center; color: #888; font-size: 0.9em;">&copy; [2026] [Ashish Chakraborty]. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
