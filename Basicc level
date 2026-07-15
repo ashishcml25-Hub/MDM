@@ -2,87 +2,41 @@
 <html>
 <head>
     <title>Student Registration Form</title>
-    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>ACADEMIA INSTITUTE</h1>
-    <h2>Enrollment Form</h2>
-
     <form>
-
         <fieldset>
-            <legend>Student Profile</legend>
+            <legend><b>Student Details</b></legend>
 
-            <label>First Name</label><br>
-            <input type="text"><br><br>
+            Name:
+            <input type="text">
+            <br><br>
 
-            <label>Last Name</label><br>
-            <input type="text"><br><br>
+            Father's Name:
+            <input type="text">
+            <br><br>
 
-            <label>Email</label><br>
-            <input type="email"><br><br>
-
-            <label>Phone</label><br>
-            <input type="tel"><br><br>
-
-            <label>Gender</label><br>
+            Gender:
             <input type="radio" name="gender"> Male
             <input type="radio" name="gender"> Female
+            <input type="radio" name="gender"> Others
             <br><br>
 
-        </fieldset>
-
-        <fieldset>
-            <legend>Academic Information</legend>
-
-            <label>Course</label><br>
-            <select>
-                <option>BCA</option>
-                <option>B.Tech</option>
-                <option>BBA</option>
-                <option>B.Com</option>
-            </select>
+            Contact Mobile Number:
+            <input type="tel">
             <br><br>
 
-            <label>Percentage</label><br>
-            <input type="number"><br><br>
-
-            <label>Upload Marksheet</label><br>
-            <input type="file"><br><br>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Address</legend>
-
-            <label>Address</label><br>
-            <textarea rows="4"></textarea><br><br>
-
-            <label>City</label><br>
-            <input type="text"><br><br>
-
-            <label>State</label><br>
-            <input type="text"><br><br>
-
-        </fieldset>
-
-        <fieldset>
-            <legend>Submit</legend>
-
-            <input type="checkbox">
-            I confirm the above information is correct.
+            Email:
+            <input type="email">
             <br><br>
 
             <input type="submit" value="Submit">
-            <input type="reset" value="Reset">
+            <input type="reset" value="Clear">
 
         </fieldset>
-
     </form>
-
-</div>
 
 </body>
 </html>
