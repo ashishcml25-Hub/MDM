@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TechFest 2026</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(to right,#1b4de4,#7b2cff);
+    padding:30px;
+}
+
+.container{
+    max-width:900px;
+    margin:auto;
+    background:#fff;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+}
+
+h1{
+    text-align:center;
+    color:#6a1bff;
+}
+
+h3{
+    text-align:center;
+    color:#555;
+    margin-bottom:20px;
+}
+
+h2{
+    text-align:center;
+    color:#2c4fb5;
+    margin:15px 0;
+}
+
+p{
+    text-align:center;
+    color:#555;
+}
+
+.info{
+    display:flex;
+    justify-content:space-between;
+    margin:25px 0;
+    gap:20px;
+}
+
+.card{
+    flex:1;
+    padding:15px;
+    border-radius:10px;
+}
+
+.yellow{
+    background:#fff6c9;
+}
+
+.pink{
+    background:#ffe0ef;
+}
+
+.form{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:15px;
+    margin-top:20px;
+}
+
+input,select,textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+textarea{
+    grid-column:1/3;
+    height:100px;
+}
+
+.button{
+    grid-column:1/3;
+    text-align:center;
+}
+
+button{
+    background:#0b82ff;
+    color:white;
+    padding:12px 30px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.events{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:30px;
+}
+
+.box{
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.c1{background:#d8fbff;}
+.c2{background:#f3e1ff;}
+.c3{background:#dfffe8;}
+.c4{background:#ffe2f2;}
+
+.buttons{
+    text-align:center;
+    margin-top:25px;
+}
+
+.join{
+    background:#7b2cff;
+}
+
+.schedule{
+    background:white;
+    color:#7b2cff;
+    border:2px solid #7b2cff;
+    margin-left:10px;
+}
+
+.footer{
+    text-align:center;
+    margin-top:30px;
+    color:#555;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>TechFest 2026</h1>
+<h3>Annual Technical Festival</h3>
+
+<h2>You're Invited!</h2>
+
+<p>
+Join us for exciting technical events, coding competitions,
+workshops, robotics, project exhibitions and fun activities.
+</p>
+
+<br>
+
+<p><b>Date:</b> 20 September 2026</p>
+<p><b>Time:</b> 10:00 AM</p>
+<p><b>Venue:</b> College Auditorium</p>
+
+<div class="buttons">
+<button class="join">Register Now</button>
+<button class="schedule">Learn More</button>
+</div>
+
+<div class="info">
+<div class="card yellow">
+<h4>📍 Venue</h4>
+<p>SBJITMR Campus Auditorium</p>
+</div>
+
+<div class="card pink">
+<h4>🎉 Events</h4>
+<p>Hackathon, AI Workshop, Coding Contest, Robotics, Quiz</p>
+</div>
+</div>
+
+<h2>Registration Form</h2>
+
+<form class="form">
+
+<input type="text" placeholder="Full Name">
+
+<input type="email" placeholder="Email Address">
+
+<input type="tel" placeholder="Mobile Number">
+
+<select>
+<option>Select Department</option>
+<option>CSE</option>
+<option>AIML</option>
+<option>IT</option>
+<option>ECE</option>
+</select>
+
+<select>
+<option>Select Event</option>
+<option>Hackathon</option>
+<option>AI Workshop</option>
+<option>Robotics</option>
+<option>Gaming Zone</option>
+</select>
+
+<input type="text" placeholder="College Name">
+
+<textarea placeholder="Write your message"></textarea>
+
+<div class="button">
+<button type="submit">Submit Registration</button>
+</div>
+
+</form>
+
+<div class="events">
+
+<div class="box c1">🤖<br>Robotics</div>
+
+<div class="box c2">💻<br>Hackathon</div>
+
+<div class="box c3">🧠<br>AI Workshop</div>
+
+<div class="box c4">🎮<br>Gaming Zone</div>
+
+</div>
+
+<div class="buttons">
+<button class="join">Join TECHFEST 2026</button>
+<button class="schedule">View Schedule</button>
+</div>
+
+<div class="footer">
+<h3>See You at TECHFEST 2026!</h3>
+<p>SB Jain Institute of Technology, Management & Research, Nagpur</p>
+<p>© 2026 TECHFEST | Annual Technical Festival</p>
+</div>
+
+</div>
+
+</body>
+</html>
