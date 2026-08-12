@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Product Store</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+
+        <div class="max-w-7xl mx-auto px-6 py-4
+                    flex flex-col md:flex-row
+                    justify-between items-center gap-4">
+
+            <div class="flex items-center gap-2">
+                <div class="bg-indigo-600 text-white
+                            w-10 h-10 rounded-lg
+                            flex items-center justify-center
+                            font-bold text-xl">
+                    T
+                </div>
+
+                <h1 class="text-2xl font-bold">
+                    Tech<span class="text-indigo-600">Store</span>
+                </h1>
+            </div>
+
+            <nav class="fl-6 font-medium">
+                <a href="#" class="hover:text-indigo-600">Home</a>
+                <a href="#" class="hover:text-indigo-600">Products</a>
+                <a href="#" class="hover:text-indigo-600">Offers</a>
+                <a href="#" class="hover:text-indigo-600">Contact</a>
+            </nav>
+
+            <button class="bg-indigo-600 text-white
+                           px-5 py-2 rounded-lg
+                           hover:bg-indigo-700 transition">
+                🛒 Cart
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <section class="bg-gradient-to-r from-indigo-600 to-purple-600
+                    text-white">
+
+        <div class="max-w-7xl mx-auto px-6 py-16
+                    flex flex-col md:flex-row
+                    items-center justify-between gap-10">
+
+            <div class="md:w-1/2">
+
+                <span class="bg-white/20 px-4 py-2 rounded-full text-sm">
+                    New Collection 2026
+                </span>
+
+                <h2 class="text-4xl md:text-6xl
+                           font-bold mt-6 leading-tight">
+                    Upgrade Your
+                    <span class="text-yellow-300">
+                        Lifestyle
+                    </span>
+                </h2>
+
+                <p class="mt-5 text-indigo-100 text-lg">
+                    Discover premium technology products designed
+                    for modern living.
+                </p>
+
+                <div class="flex flex-wrap gap-4 mt-8">
+
+                    <button class="bg-white text-indigo-600
+                                   px-6 py-3 rounded-lg
+                                   font-semibold
+                                   hover:bg-gray-100 transition">
+                        Explore Products
+                    </button>
+
+                    <button class="border border-white
+                                   px-6 py-3 rounded-lg
+                                   hover:bg-white hover:text-indigo-600
+                                   transition">
+                        View Offers
+                    </button>
+
+                </div>
+
+            </div>
+
+            <div class="md:w-1/2 flex justify-center">
+
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+                    alt="Smart Watch"
+                    class="w-full max-w-md rounded-2xl
+                           shadow-2xl">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <main class="max-w-7xl mx-auto px-6 py-14">
+
+        <div class="flex flex-col sm:flex-row
+                    justify-between items-center gap-4 mb-10">
+
+            <div>
+                <h2 class="text-3xl font-bold">
+                    Featured Products
+                </h2>
+
+                <p class="text-gray-500 mt-2">
+                    Our most popular products
+                </p>
+            </div>
+
+            <button class="border border-gray-300
+                           px-5 py-2 rounded-lg
+                           hover:bg-gray-200">
+                View All →
+            </button>
+
+        </div>
+
+
+        <!-- FLEXBOX PRODUCT GRID -->
+        <div class="flex flex-wrap justify-center gap-8">
+
+
+            <!-- PRODUCT 1 -->
+            <article class="bg-white rounded-2xl
+                            shadow-md overflow-hidden
+                            w-full sm:w-[45%] lg:w-[30%]
+                            group hover:shadow-2xl
+                            transition duration-300">
+
+                <div class="relative overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+                        alt="Smart Watch"
+                        class="w-full h-64 object-cover
+                               group-hover:scale-110
+                               transition duration-500">
+
+                    <span class="absolute top-4 left-4
+                                 bg-red-500 text-white
+                                 px-3 py-1 rounded-full
+                                 text-sm font-semibold">
+                        -20%
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-indigo-600 text-sm font-semibold">
+                        SMART TECHNOLOGY
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Smart Watch Pro
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Advanced smartwatch with fitness tracking
+                        and smart notifications.
+                    </p>
+
+                    <div class="flex items-center gap-2 mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="text-gray-400 text-sm">
+                            (124)
+                        </span>
+                    </div>
+
+                    <div class="flex justify-between
+                                items-center mt-5">
+
+                        <div>
+                            <span class="text-2xl font-bold
+                                         text-indigo-600">
+                                ₹2,999
+                            </span>
+
+                            <span class="text-gray-400
+                                         line-through ml-2">
+                                ₹3,799
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <button class="w-full bg-indigo-600
+                                   text-white py-3 mt-5
+                                   rounded-lg font-semibold
+                                   hover:bg-indigo-700
+                                   transition">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 2 -->
+            <article class="bg-white rounded-2xl
+                            shadow-md overflow-hidden
+                            w-full sm:w-[45%] lg:w-[30%]
+                            group hover:shadow-2xl
+                            transition duration-300">
+
+                <div class="relative overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
+                        alt="Wireless Headphones"
+                        class="w-full h-64 object-cover
+                               group-hover:scale-110
+                               transition duration-500">
+
+                    <span class="absolute top-4 left-4
+                                 bg-green-500 text-white
+                                 px-3 py-1 rounded-full
+                                 text-sm font-semibold">
+                        NEW
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-indigo-600 text-sm font-semibold">
+                        AUDIO
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Wireless Headphones
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Premium wireless headphones with
+                        immersive sound quality.
+                    </p>
+
+                    <div class="flex items-center gap-2 mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="text-gray-400 text-sm">
+                            (98)
+                        </span>
+                    </div>
+
+                    <div class="mt-5">
+                        <span class="text-2xl font-bold
+                                     text-indigo-600">
+                            ₹1,999
+                        </span>
+                    </div>
+
+                    <button class="w-full bg-indigo-600
+                                   text-white py-3 mt-5
+                                   rounded-lg font-semibold
+                                   hover:bg-indigo-700
+                                   transition">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+
+            <!-- PRODUCT 3 -->
+            <article class="bg-white rounded-2xl
+                            shadow-md overflow-hidden
+                            w-full sm:w-[45%] lg:w-[30%]
+                            group hover:shadow-2xl
+                            transition duration-300">
+
+                <div class="relative overflow-hidden">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+                        alt="Running Shoes"
+                        class="w-full h-64 object-cover
+                               group-hover:scale-110
+                               transition duration-500">
+
+                    <span class="absolute top-4 left-4
+                                 bg-orange-500 text-white
+                                 px-3 py-1 rounded-full
+                                 text-sm font-semibold">
+                        HOT
+                    </span>
+
+                </div>
+
+                <div class="p-6">
+
+                    <p class="text-indigo-600 text-sm font-semibold">
+                        FOOTWEAR
+                    </p>
+
+                    <h3 class="text-xl font-bold mt-2">
+                        Sport Running Shoes
+                    </h3>
+
+                    <p class="text-gray-500 mt-2">
+                        Lightweight running shoes designed
+                        for maximum comfort.
+                    </p>
+
+                    <div class="flex items-center gap-2 mt-4">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="text-gray-400 text-sm">
+                            (156)
+                        </span>
+                    </div>
+
+                    <div class="mt-5">
+                        <span class="text-2xl font-bold
+                                     text-indigo-600">
+                            ₹2,499
+                        </span>
+                    </div>
+
+                    <button class="w-full bg-indigo-600
+                                   text-white py-3 mt-5
+                                   rounded-lg font-semibold
+                                   hover:bg-indigo-700
+                                   transition">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+    <footer class="bg-gray-900 text-gray-300">
+
+        <div class="max-w-7xl mx-auto px-6 py-10
+                    flex flex-col md:flex-row
+                    justify-between items-center gap-5">
+
+            <div>
+                <h2 class="text-xl font-bold text-white">
+                    TechStore
+                </h2>
+
+                <p class="text-sm mt-2">
+                    Quality products for modern lifestyles.
+                </p>
+            </div>
+
+            <div class="flex gap-6 text-sm">
+                <a href="#" class="hover:text-white">Privacy</a>
+                <a href="#" class="hover:text-white">Terms</a>
+                <a href="#" class="hover:text-white">Support</a>
+            </div>
+
+        </div>
+
+        <div class="border-t border-gray-700 text-center py-4 text-sm">
+            © 2026 TechStore. All Rights Reserved.
+        </div>
+
+    </footer>
+
+</body>
+</html>
