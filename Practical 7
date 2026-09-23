@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Interactive FAQ</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f5f9;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .faq-container {
+            max-width: 700px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 25px;
+        }
+
+        .faq {
+            margin-bottom: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+
+        .question {
+            width: 100%;
+            padding: 18px;
+            background-color: #eeeeee;
+            border: none;
+            text-align: left;
+            font-size: 17px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .question:hover {
+            background-color: #dddddd;
+        }
+
+        .answer {
+            display: none;
+            padding: 15px 18px;
+            background-color: white;
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .answer.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="faq-container">
+
+        <h1>College Help Portal - FAQ</h1>
+
+        <div class="faq">
+            <button class="question">
+                What are the college timings?
+            </button>
+            <div class="answer">
+                The college timings are from 10:30 AM to 5:30 PM.
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="question">
+                How can I contact the department?
+            </button>
+            <div class="answer">
+                You can contact the department office during college working hours.
+            </div>
+        </div>
+
+        <div class="faq">
+            <button class="question">
+                Where can I find
