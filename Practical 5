@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-100">
+
+    <!-- Header -->
+    <div class="text-center py-8">
+        <h1 class="text-4xl font-bold text-slate-800">
+            Our Food Menu
+        </h1>
+        <p class="text-gray-600 mt-2">
+            Delicious dishes made with love
+        </p>
+    </div>
+
+    <!-- Food Grid -->
+    <div class="container mx-auto px-6 pb-10">
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <!-- Card 1 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden
+                        border border-slate-200
+                        hover:-translate-y-1 hover:shadow-xl
+                        transition-all duration-300">
+
+                <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38"
+                     alt="Pizza"
+                     class="w-full aspect-video object-cover">
+
+                <div class="p-5 flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-800">
+                            Cheese Pizza
+                        </h2>
+
+                        <p class="text-gray-600 mt-2">
+                            Delicious cheesy pizza topped with fresh vegetables
+                            and special herbs.
+                        </p>
+
+                        <span class="inline-block mt-3 bg-green-100
+                                     text-green-700 px-3 py-1 rounded-full">
+                            ₹199
+                        </span>
+                    </div>
+
+                    <button class="mt-5 bg-orange-500 text-white
+                                   px-4 py-2 rounded-lg
+                                   hover:bg-orange-600
+                                   transition">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Card 2 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden
+                        border border-slate-200
+                        hover:-translate-y-1 hover:shadow-xl
+                        transition-all duration-300">
+
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd"
+                     alt="Burger"
+                     class="w-full aspect-video object-cover">
+
+                <div class="p-5 flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-800">
+                            Classic Burger
+                        </h2>
+
+                        <p class="text-gray-600 mt-2">
+                            Juicy grilled burger with fresh vegetables,
+                            cheese and special sauce.
+                        </p>
+
+                        <span class="inline-block mt-3 bg-green-100
+                                     text-green-700 px-3 py-1 rounded-full">
+                            ₹149
+                        </span>
+                    </div>
+
+                    <button class="mt-5 bg-orange-500 text-white
+                                   px-4 py-2 rounded-lg
+                                   hover:bg-orange-600
+                                   transition">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Card 3 -->
+            <div class="bg-white rounded-xl shadow-md overflow-hidden
+                        border border-slate-200
+                        hover:-translate-y-1 hover:shadow-xl
+                        transition-all duration-300">
+
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349"
+                     alt="French Fries"
+                     class="w-full aspect-video object-cover">
+
+                <div class="p-5 flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-xl font-bold text-slate-800">
+                            French Fries
+                        </h2>
+
+                        <p class="text-gray-600 mt-2">
+                            Crispy golden French fries served with delicious
+                            seasoning and sauce.
+                        </p>
+
+                        <span class="inline-block mt-3 bg-green-100
+                                     text-green-700 px-3 py-1 rounded-full">
+                            ₹99
+                        </span>
+                    </div>
+
+                    <button class="mt-5 bg-orange-500 text-white
+                                   px-4 py-2 rounded-lg
+                                   hover:bg-orange-600
+                                   transition">
+                        Order Now
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
